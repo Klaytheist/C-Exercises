@@ -14,7 +14,7 @@ namespace CSExercise
             Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
             Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
             Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
-            Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
+            Console.WriteLine($"{num1} / {num2} = {(double)num1 / num2}");
             Console.WriteLine($"{num1} mod {num2} = {num1 % num2}");
             Console.ReadKey();
         }
