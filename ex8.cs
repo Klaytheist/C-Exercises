@@ -6,8 +6,8 @@ namespace CSExercise
     {
         static void Main(string[] args)
         {
-            int num1, num2;
-            Console.WriteLine("Input the first number");
+            int num1;
+            Console.WriteLine("Enter the number");
             num1 = int.Parse(Console.ReadLine());
             for(int i = 0 ; i < 11 ; ++i)
             {
