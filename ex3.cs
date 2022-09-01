@@ -10,7 +10,7 @@ namespace CSExercise
             Console.WriteLine("Enter two numbers:");
             num1 = double.Parse(Console.ReadLine());
             num2 = double.Parse(Console.ReadLine());
-            Console.WriteLine($"Sum: {num1/num2}");
+            Console.WriteLine($"Quotient: {num1 / num2}");
             Console.ReadKey();
         }
     }
