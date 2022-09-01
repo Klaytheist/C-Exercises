@@ -13,7 +13,7 @@ namespace CSExercise
             num2 = int.Parse(Console.ReadLine());
             Console.WriteLine("Input the third number");
             num3 = int.Parse(Console.ReadLine());
-            Console.WriteLine($"The product is {num1 * num2 * num3}");
+            Console.WriteLine($"{num1} * {num2} * {num3} {num1 * num2 * num3}");
             Console.ReadKey();
         }
     }
